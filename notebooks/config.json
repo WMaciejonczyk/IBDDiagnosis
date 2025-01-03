@@ -1,0 +1,1 @@
+{"GLOBAL": {"test_size": 0.3, "cross_validation_splits": 10, "random_state": 42}, "RandomForest": {"featureSelector__n_features_to_select": [1.0], "classifier__n_estimators": [1000], "classifier__criterion": ["entropy"]}}
