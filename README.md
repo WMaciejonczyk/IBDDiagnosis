@@ -1,4 +1,4 @@
-# Full-Stack Application with Flask, React, and Docker Compose
+# Web application for preliminary diagnosis of inflammatory bowel diseases with the use of machine learning
 
 This repository contains a full-stack web application with a Flask backend and a React frontend. The project is containerized using Docker Compose for easy deployment and development.
 
