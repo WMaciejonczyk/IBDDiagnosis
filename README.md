@@ -21,8 +21,6 @@ This repository contains a full-stack web application with a Flask backend and a
 - React frontend for a dynamic and interactive user interface.
 - TailwindCSS for styling.
 - Docker Compose for easy orchestration of backend and frontend services.
-- TypeScript configuration in the frontend for improved type safety.
-- [Any additional features relevant to your app.]
 
 ---
 
