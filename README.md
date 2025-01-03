@@ -1,6 +1,6 @@
 # Web application for preliminary diagnosis of inflammatory bowel diseases with the use of machine learning
 
-This repository contains a full-stack web application with a Flask backend and a React frontend. The project is containerized using Docker Compose for easy deployment and development.
+This repository contains a full-stack web application with a Flask backend and a React frontend. Also model training algorithms are included. The project is containerized using Docker Compose for easy deployment and development.
 
 ---
 
@@ -28,6 +28,7 @@ This repository contains a full-stack web application with a Flask backend and a
 
 - **Backend:** Flask (Python)
 - **Frontend:** React, TailwindCSS, TypeScript
+- **Model training:** Jupyter Notebook
 - **Testing:** Pytest, Jest
 - **Containerization:** Docker, Docker Compose
 
@@ -38,19 +39,24 @@ This repository contains a full-stack web application with a Flask backend and a
 <!-- TREEVIEW START -->
 
     IBDDiagnosis/
-    ├── flask-backend/            # Backend service (Flask)
+    ├── flask-backend/              # Backend service (Flask)
     │   ├── src/
-    │   │   ├── app.py            # Main Flask application
-    │   │   └── test_app.py       # Test file for main app
-    │   ├── requirements.txt      # Backend dependencies
-    │   └── Dockerfile            # Backend Dockerfile
-    ├── react-frontend/           # Frontend service (React)
+    │   │   ├── app.py              # Main Flask application
+    │   │   └── test_app.py         # Test file for main app
+    │   ├── requirements.txt        # Backend dependencies
+    │   └── Dockerfile              # Backend Dockerfile
+    ├── react-frontend/             # Frontend service (React)
     │   ├── src/
     │   ├── public/
-    │   ├── package.json          # Frontend dependencies
-    │   └── Dockerfile            # Frontend Dockerfile
-    ├── docker-compose.yml        # Docker Compose file for orchestration
-    └── README.md                 # Project documentation
+    │   ├── package.json            # Frontend dependencies
+    │   └── Dockerfile              # Frontend Dockerfile
+    ├── notebooks/
+    │   ├── config.json
+    │   ├── UlcerativeColitis.ipynb # Algorithm for UC model
+    │   ├── CrohnDisease.ipynb      # Algorithm for CD model
+    ├── docker-compose.yml          # Docker Compose file for orchestration
+    ├── README.md                   # Project documentation
+    └── LICENSE                     # MIT License
     
 <!-- TREEVIEW END -->
 
