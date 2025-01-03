@@ -37,7 +37,7 @@ This repository contains a full-stack web application with a Flask backend and a
 
 <!-- TREEVIEW START -->
 
-    project/
+    IBDDiagnosis/
     ├── flask-backend/            # Backend service (Flask)
     │   ├── src/
     │   │   ├── app.py            # Main Flask application
@@ -72,7 +72,7 @@ This repository contains a full-stack web application with a Flask backend and a
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:5000
 
-4. To stop the application"
+4. To stop the application
    ```bash
    docker-compose down
 ## Usage
